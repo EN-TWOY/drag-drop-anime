@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop - Anime 2023</title>
+
+    <!-- bootstrap-css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- bootstrap-icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body class="bg-dark">
+
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-center" style="height: 100vh;">
+            <ul class="ordenList bg-secondary p-3 border-0 rounded" style="width: 550px;">
+                <!-- title -->
+                <h4 class="text-center text-light">Top Personajes Anime 2023</h4>
+                <hr>
+                <!-- list-1 -->
+                <li class="item bg-light shadow-sm d-flex align-items-center justify-content-between border border-dark-subtle rounded mb-3 py-2 px-3"
+                    draggable="true" style="list-style: none; cursor: move;">
+                    <div class="d-flex align-items-center">
+                        <img class="object-fit-cover rounded-circle me-3" src="img/1.png"
+                            style="height: 45px; width: 45px; pointer-events: none;" alt="cover">
+                        <span class="fs-5 text-muted">Nagatoro de Ijiranaide, Nagatoro-san</span>
+                    </div>
+                    <i class="bi bi-chevron-expand fs-4"></i>
+                </li>
+                <!-- list-2 -->
+                <li class="item bg-light shadow-sm d-flex align-items-center justify-content-between border border-dark-subtle rounded mb-3 py-2 px-3"
+                    draggable="true" style="list-style: none; cursor: move;">
+                    <div class="d-flex align-items-center">
+                        <img class="object-fit-cover rounded-circle me-3" src="img/3.jpg"
+                            style="height: 45px; width: 45px; pointer-events: none;" alt="cover">
+                        <span class="fs-5 text-muted">YoRHa de NieR:Automata</span>
+                    </div>
+                    <i class="bi bi-chevron-expand fs-4"></i>
+                </li>
+                <!-- list-3 -->
+                <li class="item bg-light shadow-sm d-flex align-items-center justify-content-between border border-dark-subtle rounded mb-3 py-2 px-3"
+                    draggable="true" style="list-style: none; cursor: move;">
+                    <div class="d-flex align-items-center">
+                        <img class="object-fit-cover rounded-circle me-3" src="img/2.png"
+                            style="height: 45px; width: 45px; pointer-events: none;" alt="cover">
+                        <span class="fs-5 text-muted">Tomo Aizawa de Tomo-chan wa Onnanoko</span>
+                    </div>
+                    <i class="bi bi-chevron-expand fs-4"></i>
+                </li>
+                <!-- list-4 -->
+                <li class="item bg-light shadow-sm d-flex align-items-center justify-content-between border border-dark-subtle rounded mb-3 py-2 px-3"
+                    draggable="true" style="list-style: none; cursor: move;">
+                    <div class="d-flex align-items-center">
+                        <img class="object-fit-cover rounded-circle me-3" src="img/4.jpg"
+                            style="height: 45px; width: 45px; pointer-events: none;" alt="cover">
+                        <span class="fs-5 text-muted">Saito de Benriya Saitou-san, Isekai ni Iku</span>
+                    </div>
+                    <i class="bi bi-chevron-expand fs-4"></i>
+                </li>
+                <!-- list-5 -->
+                <li class="item bg-light shadow-sm d-flex align-items-center justify-content-between border border-dark-subtle rounded mb-3 py-2 px-3"
+                    draggable="true" style="list-style: none; cursor: move;">
+                    <div class="d-flex align-items-center">
+                        <img class="object-fit-cover rounded-circle me-3" src="img/5.jpg"
+                            style="height: 45px; width: 45px; pointer-events: none;" alt="cover">
+                        <span class="fs-5 text-muted">Nagisa de Kubo-san wa Mob wo Yurusanai</span>
+                    </div>
+                    <i class="bi bi-chevron-expand fs-4"></i>
+                </li>
+                <!-- list-6 -->
+                <li class="item bg-light shadow-sm d-flex align-items-center justify-content-between border border-dark-subtle rounded mb-3 py-2 px-3"
+                    draggable="true" style="list-style: none; cursor: move;">
+                    <div class="d-flex align-items-center">
+                        <img class="object-fit-cover rounded-circle me-3" src="img/6.jpg"
+                            style="height: 45px; width: 45px; pointer-events: none;" alt="cover">
+                        <span class="fs-5 text-muted">Mahiro de Oniichan wa Oshimai</span>
+                    </div>
+                    <i class="bi bi-chevron-expand fs-4"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
